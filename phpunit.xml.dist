@@ -13,7 +13,7 @@
     syntaxCheck="false"
     bootstrap="vendor/autoload.php">
     <testsuites>
-        <testsuite name="Caridea Tests">
+        <testsuite name="caridea-random Tests">
             <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>
@@ -23,7 +23,7 @@
         </blacklist>
     </filter>
     <logging>
-        <log type="coverage-html" target="build/coverage" title="Caridea" charset="UTF-8" highlight="true"/>
+        <log type="coverage-html" target="build/coverage" title="caridea-random" charset="UTF-8" highlight="true"/>
         <log type="coverage-clover" target="build/logs/clover.xml"/>
     </logging>
 </phpunit>

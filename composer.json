@@ -1,14 +1,11 @@
 {
-    "name": "libreworks/caridea",
-    "description": "A shrimp of a library",
+    "name": "caridea/random",
+    "description": "A shrimp of a random number generation library",
     "version": "0.1.0-alpha",
     "license": "Apache-2.0",
-    "require": {
-        "psr/http-message": "1.0"
-    },
     "autoload": {
-        "psr-0": {
-          "": "src/"
+        "psr-4": {
+          "Caridea\\Random\\": "src/"
         }
     }
 }
