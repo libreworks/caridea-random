@@ -5,6 +5,10 @@ Caridea is a miniscule PHP application library. This shrimpy fellow is what you'
 
 This is its random number generation component. It has providers for Mcrypt and OpenSSL. Other random number generation in PHP isn't considered secure enough to have an adapter here.
 
+[![Build Status](https://travis-ci.org/libreworks/caridea-random.svg)](https://travis-ci.org/libreworks/caridea-random)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/libreworks/caridea-random/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/libreworks/caridea-random/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/libreworks/caridea-random/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/libreworks/caridea-random/?branch=master)
+
 ## Installation
 
 You can install this library using Composer:
