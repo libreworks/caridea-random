@@ -14,7 +14,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  *
- * @copyright 2015 LibreWorks contributors
+ * @copyright 2015-2016 LibreWorks contributors
  * @license   http://opensource.org/licenses/Apache-2.0 Apache 2.0 License
  */
 namespace Caridea\Random;
@@ -22,7 +22,7 @@ namespace Caridea\Random;
 /**
  * A provider of cryptographically-strong random bytes using Mcrypt.
  *
- * @copyright 2015 LibreWorks contributors
+ * @copyright 2015-2016 LibreWorks contributors
  * @license   http://opensource.org/licenses/Apache-2.0 Apache 2.0 License
  */
 class Mcrypt implements Generator
@@ -45,7 +45,7 @@ class Mcrypt implements Generator
     /**
      * Determines whether this provider can be run (e.g. all needed PHP extensions are available).
      *
-     * @return boolean Whether this provider is available
+     * @return bool Whether this provider is available
      */
     public static function isAvailable()
     {
